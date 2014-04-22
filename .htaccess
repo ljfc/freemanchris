@@ -12,6 +12,5 @@ RewriteRule . /index.php [L]
 # END WordPress
 
 order allow,deny
-# Added 22nd April 2014: *all* spam caught by Akismet was consistently from this source, and was pegging the CPU of the server.
-deny from 10.75.19.138
+#deny from 10.75.19.138
 allow from all
